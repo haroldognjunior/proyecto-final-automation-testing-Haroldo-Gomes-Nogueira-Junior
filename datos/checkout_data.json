@@ -1,0 +1,41 @@
+{
+  "valid_customers": [
+    {
+      "case_id": "CHK-01",
+      "first_name": "Haroldo",
+      "last_name": "Nogueira",
+      "postal_code": "78700",
+      "products": ["Sauce Labs Backpack"]
+    },
+    {
+      "case_id": "CHK-02",
+      "first_name": "Ana",
+      "last_name": "López",
+      "postal_code": "06600",
+      "products": ["Sauce Labs Bike Light", "Sauce Labs Bolt T-Shirt", "Sauce Labs Onesie"]
+    }
+  ],
+  "missing_fields": [
+    {
+      "case_id": "CHK-03",
+      "first_name": "",
+      "last_name": "Nogueira",
+      "postal_code": "78700",
+      "expected_message": "Error: First Name is required"
+    },
+    {
+      "case_id": "CHK-04",
+      "first_name": "Haroldo",
+      "last_name": "",
+      "postal_code": "78700",
+      "expected_message": "Error: Last Name is required"
+    },
+    {
+      "case_id": "CHK-05",
+      "first_name": "Haroldo",
+      "last_name": "Nogueira",
+      "postal_code": "",
+      "expected_message": "Error: Postal Code is required"
+    }
+  ]
+}
