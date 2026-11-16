@@ -1,0 +1,8 @@
+case_id,username,password,expected_result,expected_message
+LOGIN-01,standard_user,secret_sauce,ok,
+LOGIN-02,problem_user,secret_sauce,ok,
+LOGIN-03,performance_glitch_user,secret_sauce,ok,
+LOGIN-04,locked_out_user,secret_sauce,error,"Epic sadface: Sorry, this user has been locked out."
+LOGIN-05,standard_user,clave_incorrecta,error,Epic sadface: Username and password do not match any user in this service
+LOGIN-06,,secret_sauce,error,Epic sadface: Username is required
+LOGIN-07,standard_user,,error,Epic sadface: Password is required
