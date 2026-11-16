@@ -1,0 +1,17 @@
+{
+  "user_ids": [1, 2, 5],
+  "new_posts": [
+    {
+      "case_id": "API-POST-01",
+      "title": "Reporte de pruebas automatizadas",
+      "body": "Ejecución nocturna sin fallos",
+      "userId": 1
+    },
+    {
+      "case_id": "API-POST-02",
+      "title": "Título con acentos: ñandú y canción",
+      "body": "Validar que el texto con caracteres especiales vuelva igual",
+      "userId": 7
+    }
+  ]
+}
