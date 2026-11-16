@@ -1,0 +1,170 @@
+2026-11-15 19:22:00 [INFO] utils.api_client: GET https://jsonplaceholder.typicode.com/posts/1
+2026-11-15 19:22:00 [INFO] utils.api_client: Respuesta 200 en 415 ms
+2026-11-15 19:22:00 [INFO] utils.api_client: GET https://jsonplaceholder.typicode.com/posts
+2026-11-15 19:22:00 [INFO] utils.api_client: Respuesta 200 en 248 ms
+2026-11-15 19:22:00 [INFO] utils.api_client: GET https://jsonplaceholder.typicode.com/posts
+2026-11-15 19:22:01 [INFO] utils.api_client: Respuesta 200 en 360 ms
+2026-11-15 19:22:01 [INFO] utils.api_client: GET https://jsonplaceholder.typicode.com/posts
+2026-11-15 19:22:01 [INFO] utils.api_client: Respuesta 200 en 304 ms
+2026-11-15 19:22:01 [INFO] utils.api_client: GET https://jsonplaceholder.typicode.com/posts/99999
+2026-11-15 19:22:01 [INFO] utils.api_client: Respuesta 404 en 304 ms
+2026-11-15 19:22:01 [INFO] utils.api_client: POST https://jsonplaceholder.typicode.com/posts
+2026-11-15 19:22:01 [INFO] utils.api_client: Body enviado: {'title': 'Reporte de pruebas automatizadas', 'body': 'Ejecución nocturna sin fallos', 'userId': 1}
+2026-11-15 19:22:02 [INFO] utils.api_client: Respuesta 201 en 408 ms
+2026-11-15 19:22:02 [INFO] utils.api_client: POST https://jsonplaceholder.typicode.com/posts
+2026-11-15 19:22:02 [INFO] utils.api_client: Body enviado: {'title': 'Título con acentos: ñandú y canción', 'body': 'Validar que el texto con caracteres especiales vuelva igual', 'userId': 7}
+2026-11-15 19:22:02 [INFO] utils.api_client: Respuesta 201 en 422 ms
+2026-11-15 19:22:02 [INFO] utils.api_client: DELETE https://jsonplaceholder.typicode.com/posts/1
+2026-11-15 19:22:03 [INFO] utils.api_client: Respuesta 200 en 393 ms
+2026-11-15 19:22:03 [INFO] utils.api_client: GET https://jsonplaceholder.typicode.com/posts/3
+2026-11-15 19:22:03 [INFO] utils.api_client: Respuesta 200 en 302 ms
+2026-11-15 19:22:03 [INFO] utils.api_client: GET https://jsonplaceholder.typicode.com/users/1
+2026-11-15 19:22:03 [INFO] utils.api_client: Respuesta 200 en 96 ms
+2026-11-15 19:22:03 [INFO] utils.api_client: GET https://jsonplaceholder.typicode.com/posts/3/comments
+2026-11-15 19:22:03 [INFO] utils.api_client: Respuesta 200 en 211 ms
+2026-11-15 19:22:03 [INFO] conftest: ===== Inicio: test_add_first_product_to_cart =====
+2026-11-15 19:22:08 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:08 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:08 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:09 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Backpack
+2026-11-15 19:22:10 [INFO] conftest: ===== Fin: test_add_first_product_to_cart =====
+2026-11-15 19:22:10 [INFO] conftest: ===== Inicio: test_add_several_products =====
+2026-11-15 19:22:10 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:10 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:10 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:11 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Backpack
+2026-11-15 19:22:11 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Bike Light
+2026-11-15 19:22:11 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Onesie
+2026-11-15 19:22:11 [INFO] conftest: ===== Fin: test_add_several_products =====
+2026-11-15 19:22:11 [INFO] conftest: ===== Inicio: test_remove_product_from_cart =====
+2026-11-15 19:22:11 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:11 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:12 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:12 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Backpack
+2026-11-15 19:22:12 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Bike Light
+2026-11-15 19:22:12 [INFO] CartPage: Quitado del carrito: Sauce Labs Backpack
+2026-11-15 19:22:12 [INFO] conftest: ===== Fin: test_remove_product_from_cart =====
+2026-11-15 19:22:12 [INFO] conftest: ===== Inicio: test_complete_purchase[CHK-01] =====
+2026-11-15 19:22:12 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:12 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:13 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:13 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Backpack
+2026-11-15 19:22:13 [INFO] CheckoutPage: Datos de checkout: Haroldo Nogueira (78700)
+2026-11-15 19:22:13 [INFO] conftest: ===== Fin: test_complete_purchase[CHK-01] =====
+2026-11-15 19:22:13 [INFO] conftest: ===== Inicio: test_complete_purchase[CHK-02] =====
+2026-11-15 19:22:13 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:13 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:14 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:14 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Bike Light
+2026-11-15 19:22:14 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Bolt T-Shirt
+2026-11-15 19:22:14 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Onesie
+2026-11-15 19:22:15 [INFO] CheckoutPage: Datos de checkout: Ana López (06600)
+2026-11-15 19:22:15 [INFO] conftest: ===== Fin: test_complete_purchase[CHK-02] =====
+2026-11-15 19:22:15 [INFO] conftest: ===== Inicio: test_checkout_required_fields[CHK-03] =====
+2026-11-15 19:22:15 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:15 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:15 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:16 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Backpack
+2026-11-15 19:22:16 [INFO] CheckoutPage: Datos de checkout:  Nogueira (78700)
+2026-11-15 19:22:16 [INFO] conftest: ===== Fin: test_checkout_required_fields[CHK-03] =====
+2026-11-15 19:22:16 [INFO] conftest: ===== Inicio: test_checkout_required_fields[CHK-04] =====
+2026-11-15 19:22:16 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:16 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:17 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:17 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Backpack
+2026-11-15 19:22:18 [INFO] CheckoutPage: Datos de checkout: Haroldo  (78700)
+2026-11-15 19:22:18 [INFO] conftest: ===== Fin: test_checkout_required_fields[CHK-04] =====
+2026-11-15 19:22:18 [INFO] conftest: ===== Inicio: test_checkout_required_fields[CHK-05] =====
+2026-11-15 19:22:18 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:18 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:18 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:19 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Backpack
+2026-11-15 19:22:19 [INFO] CheckoutPage: Datos de checkout: Haroldo Nogueira ()
+2026-11-15 19:22:19 [INFO] conftest: ===== Fin: test_checkout_required_fields[CHK-05] =====
+2026-11-15 19:22:19 [INFO] conftest: ===== Inicio: test_inventory_title =====
+2026-11-15 19:22:20 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:20 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:20 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:21 [INFO] conftest: ===== Fin: test_inventory_title =====
+2026-11-15 19:22:21 [INFO] conftest: ===== Inicio: test_inventory_ui_elements =====
+2026-11-15 19:22:21 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:21 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:21 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:22 [INFO] conftest: ===== Fin: test_inventory_ui_elements =====
+2026-11-15 19:22:22 [INFO] conftest: ===== Inicio: test_inventory_has_products =====
+2026-11-15 19:22:22 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:22 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:22 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:22 [INFO] test_inventory: Primer producto: Sauce Labs Backpack - $29.99
+2026-11-15 19:22:23 [INFO] conftest: ===== Fin: test_inventory_has_products =====
+2026-11-15 19:22:23 [INFO] conftest: ===== Inicio: test_sort_by_price[precio-asc] =====
+2026-11-15 19:22:23 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:23 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:23 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:24 [INFO] InventoryPage: Ordenando productos por 'Price (low to high)'
+2026-11-15 19:22:24 [INFO] conftest: ===== Fin: test_sort_by_price[precio-asc] =====
+2026-11-15 19:22:24 [INFO] conftest: ===== Inicio: test_sort_by_price[precio-desc] =====
+2026-11-15 19:22:24 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:24 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:25 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:25 [INFO] InventoryPage: Ordenando productos por 'Price (high to low)'
+2026-11-15 19:22:25 [INFO] conftest: ===== Fin: test_sort_by_price[precio-desc] =====
+2026-11-15 19:22:25 [INFO] conftest: ===== Inicio: test_sort_by_name_z_to_a =====
+2026-11-15 19:22:26 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:26 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:26 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:26 [INFO] InventoryPage: Ordenando productos por 'Name (Z to A)'
+2026-11-15 19:22:27 [INFO] conftest: ===== Fin: test_sort_by_name_z_to_a =====
+2026-11-15 19:22:27 [INFO] conftest: ===== Inicio: test_problem_user_product_images_are_different =====
+2026-11-15 19:22:27 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:27 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:27 [INFO] LoginPage: Login con usuario 'problem_user'
+2026-11-15 19:22:28 [INFO] conftest: ===== Fin: test_problem_user_product_images_are_different =====
+2026-11-15 19:22:28 [INFO] conftest: ===== Inicio: test_problem_user_sort_by_price =====
+2026-11-15 19:22:28 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:28 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:29 [INFO] LoginPage: Login con usuario 'problem_user'
+2026-11-15 19:22:29 [INFO] InventoryPage: Ordenando productos por 'Price (low to high)'
+2026-11-15 19:22:29 [INFO] conftest: ===== Fin: test_problem_user_sort_by_price =====
+2026-11-15 19:22:29 [INFO] conftest: ===== Inicio: test_problem_user_checkout_last_name =====
+2026-11-15 19:22:29 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:29 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:30 [INFO] LoginPage: Login con usuario 'problem_user'
+2026-11-15 19:22:30 [INFO] InventoryPage: Agregado al carrito: Sauce Labs Backpack
+2026-11-15 19:22:31 [INFO] CheckoutPage: Datos de checkout: Haroldo Nogueira (78700)
+2026-11-15 19:22:31 [INFO] conftest: ===== Fin: test_problem_user_checkout_last_name =====
+2026-11-15 19:22:31 [INFO] conftest: ===== Inicio: test_login_with_valid_users[LOGIN-01-standard_user] =====
+2026-11-15 19:22:31 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:31 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:31 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:32 [INFO] conftest: ===== Fin: test_login_with_valid_users[LOGIN-01-standard_user] =====
+2026-11-15 19:22:32 [INFO] conftest: ===== Inicio: test_login_with_valid_users[LOGIN-02-problem_user] =====
+2026-11-15 19:22:32 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:32 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:32 [INFO] LoginPage: Login con usuario 'problem_user'
+2026-11-15 19:22:32 [INFO] conftest: ===== Fin: test_login_with_valid_users[LOGIN-02-problem_user] =====
+2026-11-15 19:22:32 [INFO] conftest: ===== Inicio: test_login_with_valid_users[LOGIN-03-performance_glitch_user] =====
+2026-11-15 19:22:33 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:33 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:33 [INFO] LoginPage: Login con usuario 'performance_glitch_user'
+2026-11-15 19:22:38 [INFO] conftest: ===== Fin: test_login_with_valid_users[LOGIN-03-performance_glitch_user] =====
+2026-11-15 19:22:38 [INFO] conftest: ===== Inicio: test_login_invalid_shows_error[LOGIN-04] =====
+2026-11-15 19:22:39 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:39 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:39 [INFO] LoginPage: Login con usuario 'locked_out_user'
+2026-11-15 19:22:39 [INFO] conftest: ===== Fin: test_login_invalid_shows_error[LOGIN-04] =====
+2026-11-15 19:22:39 [INFO] conftest: ===== Inicio: test_login_invalid_shows_error[LOGIN-05] =====
+2026-11-15 19:22:39 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:39 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:40 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:40 [INFO] conftest: ===== Fin: test_login_invalid_shows_error[LOGIN-05] =====
+2026-11-15 19:22:40 [INFO] conftest: ===== Inicio: test_login_invalid_shows_error[LOGIN-06] =====
+2026-11-15 19:22:40 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:40 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:41 [INFO] LoginPage: Login con usuario ''
+2026-11-15 19:22:41 [INFO] conftest: ===== Fin: test_login_invalid_shows_error[LOGIN-06] =====
+2026-11-15 19:22:41 [INFO] conftest: ===== Inicio: test_login_invalid_shows_error[LOGIN-07] =====
+2026-11-15 19:22:41 [INFO] utils.helpers: Chrome iniciado (headless=False)
+2026-11-15 19:22:41 [INFO] LoginPage: Abriendo https://www.saucedemo.com/
+2026-11-15 19:22:42 [INFO] LoginPage: Login con usuario 'standard_user'
+2026-11-15 19:22:42 [INFO] conftest: ===== Fin: test_login_invalid_shows_error[LOGIN-07] =====
